@@ -1,25 +1,44 @@
-//var
-//var name = "Shraddha";
-var age = "21";
-var language = ["Marathi","Hindi","English"];
+//Methods of Array
+//toString
+var name = ["Raj", "Aaras", "Aaravi", "Om"];
+document.getElementById("demo").innerHTML = name.toString();
 
-var friends = {
-name : "Tushar",
-hobby : "Sketching",
-}
+//join
+var name1 = ["Raj", "Aaras", "Aaravi", "Om"];
+document.getElementById("test").innerHTML = name1.join("*");
 
-var a = 10;
-console.log(a);
+//pop
+var name2 = ["Raj", "Aaras", "Aaravi", "Om"];
+document.getElementById("mock").innerHTML = name2.pop();
 
-var a = null;
-console.log(a);
+//push
+var name3 = ["Raj", "Aaras", "Aaravi", "Om"];
+document.getElementById("net").innerHTML = name3.push("kiwi");
 
-//Let
-let name = "SaiRaj";
-name = "Omkar";
-console.log("Using let :", name);
-console.log(name)
+//shift
+var name4 = ["Raj", "Aaras", "Aaravi", "Om"];
+document.getElementById("nock").innerHTML = name4.shift("Rekha");
 
-//const - constant
-const country = "India";
-console.log(country);
+//unshift
+var name5 = ["Raj", "Aaras", "Aaravi", "Om"];
+document.getElementById("nest").innerHTML = name5.unshift("lemo");
+
+
+//methods of String
+//lenght
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("len").innerHTML = txt.length;
+
+//indexOf
+var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("index").innerHTML = txt.indexOf("locate");
+
+//LastIndexOf
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+document.getElementById("Liof").innerHTML = pos;
+
+//search
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+document.getElementById("srch").innerHTML = pos;
